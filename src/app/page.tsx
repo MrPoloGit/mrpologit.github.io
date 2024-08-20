@@ -12,7 +12,7 @@ interface HomeProps {
   padding?: string;
 }
 
-export default function Home({ width = 'w-full', height = 'h-auto', padding = 'p-8' }: HomeProps) {
+const Home: React.FC<HomeProps> = ({ width = 'w-full', height = 'h-auto', padding = 'p-8' }) => {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
@@ -76,4 +76,6 @@ export default function Home({ width = 'w-full', height = 'h-auto', padding = 'p
       </div>
     </div>
   );
-}
+};
+
+export default Home;
