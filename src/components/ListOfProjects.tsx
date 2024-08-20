@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 interface ListOfProjectsProps {
   onProjectSelect: (project: string) => void;
-  height?: string; // Add a height prop
+  height?: string;
 }
 
 const ListOfProjects: React.FC<ListOfProjectsProps> = ({ onProjectSelect, height = '730px' }) => {
@@ -17,12 +17,15 @@ const ListOfProjects: React.FC<ListOfProjectsProps> = ({ onProjectSelect, height
 
   // Set the initial selected project to the first project in the list
   useEffect(() => {
-    setSelectedProject(projects[0]);
-    onProjectSelect(projects[0]);
-  }, [onProjectSelect, projects]);
-  
+    if (!selectedProject && projects.length > 0) {
+      const firstProject = projects[0];
+      setSelectedProject(firstProject);
+      onProjectSelect(firstProject);
+    }
+  }, [selectedProject, onProjectSelect, projects]);
 
   const handleProjectClick = (project: string) => {
+    console.log('Project clicked:', project); // Debug log
     setSelectedProject(project);
     onProjectSelect(project);
   };
@@ -30,7 +33,7 @@ const ListOfProjects: React.FC<ListOfProjectsProps> = ({ onProjectSelect, height
   return (
     <div
       className="flex-[2] text-gray-400 p-4 max-w-sm overflow-y-auto space-y-4"
-      style={{ height }} // Set the height dynamically based on the prop
+      style={{ height }}
     >
       {projects.map((project) => (
         <div

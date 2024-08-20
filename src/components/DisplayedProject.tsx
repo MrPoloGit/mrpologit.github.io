@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import SpotifyPlayList2MP3 from './projectsinfo/SpotifyPlayList2MP3';
-import RISCVConverter from './projectsinfo/RISCVConverter'; // Importing the RISCVConverter component
+import RISCVConverter from './projectsinfo/RISCVConverter';
 
 interface DisplayedProjectProps {
   project: string;
@@ -13,6 +13,7 @@ const DisplayedProject: React.FC<DisplayedProjectProps> = ({ project, githubLink
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    console.log('Displaying project:', project); // Debug log
     // Simulate loading time with a timeout
     const timer = setTimeout(() => {
       setLoading(false);
@@ -29,7 +30,6 @@ const DisplayedProject: React.FC<DisplayedProjectProps> = ({ project, githubLink
     );
   }
 
-  // Check for the exact project name and render the appropriate component
   if (project === "SpotifyPlayList2MP3") {
     return <SpotifyPlayList2MP3 />;
   }
@@ -38,10 +38,9 @@ const DisplayedProject: React.FC<DisplayedProjectProps> = ({ project, githubLink
     return <RISCVConverter />;
   }
 
-  // Default rendering if the project is not recognized
   return (
     <div className="flex-[3] p-4 h-full flex justify-center items-center">
-        <h1 className="text-white text-2xl font-mono">Loading...</h1>
+        <h1 className="text-white text-2xl font-mono">Project not found</h1>
     </div>
   );
 };
