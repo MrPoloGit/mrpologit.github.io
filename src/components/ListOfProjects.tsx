@@ -19,7 +19,8 @@ const ListOfProjects: React.FC<ListOfProjectsProps> = ({ onProjectSelect, height
   useEffect(() => {
     setSelectedProject(projects[0]);
     onProjectSelect(projects[0]);
-  }, []);
+  }, [onProjectSelect, projects]);
+  
 
   const handleProjectClick = (project: string) => {
     setSelectedProject(project);
