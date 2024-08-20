@@ -6,13 +6,7 @@ import Avatar from '../../public/LinkedInProfile.jpeg'; // Importing the avatar 
 import UnderDevelopment from '../components/UnderDevelopment'; // Import the UnderDevelopment component
 import Image from 'next/image';
 
-interface HomeProps {
-  width?: string;
-  height?: string;
-  padding?: string;
-}
-
-const Home: React.FC<HomeProps> = ({ width = 'w-full', height = 'h-auto', padding = 'p-8' }) => {
+const Home: React.FC = () => {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
@@ -27,32 +21,26 @@ const Home: React.FC<HomeProps> = ({ width = 'w-full', height = 'h-auto', paddin
     <div className="bg-black min-h-screen text-white">
       <Navbar />
       {showPopup && <UnderDevelopment onClose={handleClosePopup} />}
-      <div className={`flex flex-col items-center mt-8 ${width} ${height} ${padding}`}>
+      <div className="flex flex-col items-center mt-8 w-full h-auto p-8">
         <div className="flex items-center space-x-4">
           {/* Circle Picture */}
           <Image 
             src={Avatar} 
             alt="Your Name" 
-            width={128}  // Use appropriate width and height for your avatar
+            width={128} 
             height={128} 
             className="rounded-full object-cover" 
           />
           <div className="flex flex-col">
-            {/* Name */}
             <h1 className="text-white text-2xl font-mono">Hello I&apos;m Marco Alexander Frank</h1>
-
-            {/* Description */}
             <p className="text-gray-300 text-center mt-2 max-w-xl">
               I am a 4th year double major in Computer Engineering and Applied Physics at UCSC. I like learning and building new things.
             </p>
           </div>
         </div>
-
-        {/* Links Section */}
         <div className="mt-8 w-full flex flex-col items-center">
           <h2 className="text-white text-xl font-mono mb-4">Links</h2>
           <div className="flex space-x-4">
-            {/* LinkedIn */}
             <a 
               href="https://www.linkedin.com/in/marcoafrank/" 
               target="_blank" 
@@ -61,8 +49,6 @@ const Home: React.FC<HomeProps> = ({ width = 'w-full', height = 'h-auto', paddin
             >
               LinkedIn
             </a>
-
-            {/* GitHub */}
             <a 
               href="https://github.com/MrPoloGit" 
               target="_blank" 
