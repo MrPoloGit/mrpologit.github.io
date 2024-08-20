@@ -1,0 +1,275 @@
+[
+    {
+      "inst": "add",
+      "opcode": "0110011",
+      "funct3": "000",
+      "funct7": "0000000",
+      "type": "R"
+    },
+    {
+      "inst": "sub",
+      "opcode": "0110011",
+      "funct3": "000",
+      "funct7": "0100000",
+      "type": "R"
+    },
+    {
+      "inst": "xor",
+      "opcode": "0110011",
+      "funct3": "100",
+      "funct7": "0000000",
+      "type": "R"
+    },
+    {
+      "inst": "or",
+      "opcode": "0110011",
+      "funct3": "110",
+      "funct7": "0000000",
+      "type": "R"
+    },
+    {
+      "inst": "and",
+      "opcode": "0110011",
+      "funct3": "111",
+      "funct7": "0000000",
+      "type": "R"
+    },
+    {
+      "inst": "sll",
+      "opcode": "0110011",
+      "funct3": "001",
+      "funct7": "0000000",
+      "type": "R"
+    },
+    {
+      "inst": "srl",
+      "opcode": "0110011",
+      "funct3": "101",
+      "funct7": "0000000",
+      "type": "R"
+    },
+    {
+      "inst": "sra",
+      "opcode": "0110011",
+      "funct3": "101",
+      "funct7": "0100000",
+      "type": "R"
+    },
+    {
+      "inst": "slt",
+      "opcode": "0110011",
+      "funct3": "010",
+      "funct7": "0000000",
+      "type": "R"
+    },
+    {
+      "inst": "sltu",
+      "opcode": "0110011",
+      "funct3": "011",
+      "funct7": "0000000",
+      "type": "R"
+    },
+    {
+      "inst": "addi",
+      "opcode": "0010011",
+      "funct3": "000",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "xori",
+      "opcode": "0010011",
+      "funct3": "100",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "ori",
+      "opcode": "0010011",
+      "funct3": "110",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "andi",
+      "opcode": "0010011",
+      "funct3": "111",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "slli",
+      "opcode": "0010011",
+      "funct3": "001",
+      "funct7": "0000000",
+      "type": "I"
+    },
+    {
+      "inst": "srli",
+      "opcode": "0010011",
+      "funct3": "101",
+      "funct7": "0000000",
+      "type": "I"
+    },
+    {
+      "inst": "srai",
+      "opcode": "0010011",
+      "funct3": "101",
+      "funct7": "0100000",
+      "type": "I"
+    },
+    {
+      "inst": "slti",
+      "opcode": "0010011",
+      "funct3": "010",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "sltiu",
+      "opcode": "0010011",
+      "funct3": "011",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "lb",
+      "opcode": "0000011",
+      "funct3": "000",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "lh",
+      "opcode": "0000011",
+      "funct3": "001",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "lw",
+      "opcode": "0000011",
+      "funct3": "010",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "lbu",
+      "opcode": "0000011",
+      "funct3": "100",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "lhu",
+      "opcode": "0000011",
+      "funct3": "101",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "jalr",
+      "opcode": "1100111",
+      "funct3": "000",
+      "funct7": "N/A",
+      "type": "I"
+    },
+    {
+      "inst": "ecall",
+      "opcode": "1110011",
+      "funct3": "000",
+      "funct7": "0000000",
+      "type": "I"
+    },
+    {
+      "inst": "ebreak",
+      "opcode": "1110011",
+      "funct3": "000",
+      "funct7": "0000001",
+      "type": "I"
+    },
+    {
+      "inst": "sb",
+      "opcode": "0100011",
+      "funct3": "000",
+      "funct7": "N/A",
+      "type": "S"
+    },
+    {
+      "inst": "sh",
+      "opcode": "0100011",
+      "funct3": "001",
+      "funct7": "N/A",
+      "type": "S"
+    },
+    {
+      "inst": "sw",
+      "opcode": "0100011",
+      "funct3": "010",
+      "funct7": "N/A",
+      "type": "S"
+    },
+    {
+      "inst": "beq",
+      "opcode": "1100011",
+      "funct3": "000",
+      "funct7": "N/A",
+      "type": "B"
+    },
+    {
+      "inst": "bne",
+      "opcode": "1100011",
+      "funct3": "001",
+      "funct7": "N/A",
+      "type": "B"
+    },
+    {
+      "inst": "blt",
+      "opcode": "1100011",
+      "funct3": "100",
+      "funct7": "N/A",
+      "type": "B"
+    },
+    {
+      "inst": "bge",
+      "opcode": "1100011",
+      "funct3": "101",
+      "funct7": "N/A",
+      "type": "B"
+    },
+    {
+      "inst": "bltu",
+      "opcode": "1100011",
+      "funct3": "110",
+      "funct7": "N/A",
+      "type": "B"
+    },
+    {
+      "inst": "bgeu",
+      "opcode": "1100011",
+      "funct3": "111",
+      "funct7": "N/A",
+      "type": "B"
+    },
+    {
+      "inst": "lui",
+      "opcode": "0110111",
+      "funct3": "N/A",
+      "funct7": "N/A",
+      "type": "U"
+    },
+    {
+      "inst": "auipc",
+      "opcode": "0010111",
+      "funct3": "N/A",
+      "funct7": "N/A",
+      "type": "U"
+    },
+    {
+      "inst": "jal",
+      "opcode": "1101111",
+      "funct3": "N/A",
+      "funct7": "N/A",
+      "type": "J"
+    }
+]
