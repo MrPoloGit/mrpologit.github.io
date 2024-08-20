@@ -39,7 +39,7 @@ export default function Home({ width = 'w-full', height = 'h-auto', padding = 'p
           />
           <div className="flex flex-col">
             {/* Name */}
-            <h1 className="text-white text-2xl font-mono">Hello I'm Marco Alexander Frank</h1>
+            <h1 className="text-white text-2xl font-mono">Hello I&apos;m Marco Alexander Frank</h1>
 
             {/* Description */}
             <p className="text-gray-300 text-center mt-2 max-w-xl">
