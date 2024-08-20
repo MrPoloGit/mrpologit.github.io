@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Navbar from '../components/NavBar'; // Adjust the path if necessary
 import Avatar from '../../public/LinkedInProfile.jpeg'; // Importing the avatar image
 import UnderDevelopment from '../components/UnderDevelopment'; // Import the UnderDevelopment component
+import Image from 'next/image';
 
 interface HomeProps {
   width?: string;
@@ -29,12 +30,13 @@ export default function Home({ width = 'w-full', height = 'h-auto', padding = 'p
       <div className={`flex flex-col items-center mt-8 ${width} ${height} ${padding}`}>
         <div className="flex items-center space-x-4">
           {/* Circle Picture */}
-          <img 
-            src={Avatar.src} 
+          <Image 
+            src={Avatar} 
             alt="Your Name" 
-            className="w-32 h-32 rounded-full object-cover" 
+            width={128}  // Use appropriate width and height for your avatar
+            height={128} 
+            className="rounded-full object-cover" 
           />
-
           <div className="flex flex-col">
             {/* Name */}
             <h1 className="text-white text-2xl font-mono">Hello I'm Marco Alexander Frank</h1>

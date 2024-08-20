@@ -38,8 +38,9 @@ const SpotifyPlayList2MP3: React.FC = () => {
       <section className="mt-2">
         <h2 className="text-white text-lg font-mono">Why</h2>
         <p className="text-gray-300 text-base mt-1">
-        I am lazy, don't like ads(I ain't paying for premium), and being able to listen to music offline including music that isn't on Spotify would be nice.
+            I am lazy, don't like ads (I ain't paying for premium), and being able to listen to music offline including music that isn't on Spotify would be nice.
         </p>
+
       </section>
 
       {/* How Section */}
