@@ -23,7 +23,6 @@ const Home: React.FC = () => {
       {showPopup && <UnderDevelopment onClose={handleClosePopup} />}
       <div className="flex flex-col items-center mt-8 w-full h-auto p-8">
         <div className="flex items-center space-x-4">
-          {/* Circle Picture */}
           <Image 
             src={Avatar} 
             alt="Your Name" 
