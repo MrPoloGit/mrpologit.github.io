@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa'; // Importing GitHub icon from react-i
 
 const RISCVConverter: React.FC = () => {
   const project = "RISCVConverter";
-  const githubLink = "https://github.com/your-profile/RISCVConverter";
+  const githubLink = "https://github.com/MrPoloGit/mrpologit.github.io/tree/main/src/components/RISCV";
 
   return (
     <div className="flex-[3] p-4 h-full">
