@@ -12,43 +12,34 @@ Project Structure
 The project is structured as a React application with modular components. Here's an overview of the key files and components:
 
 ## Components:
-RISCV.tsx:
-
+### RISCV.tsx:
 This is the main page component for the RISCV Converter. It maintains the state for the different formats (Assembly, Binary, Hexadecimal) and passes it to the interactive form and results display components.
 
-RISCVInteractiveForm.tsx:
-
+#### RISCVInteractiveForm.tsx:
 This component handles the user input, including the text input field and the dropdown to choose the format (Assembly, Binary, or Hexadecimal). It also contains the button to trigger the conversion process.
 
-RISCVDropdown.tsx:
-
+### RISCVDropdown.tsx:
 The dropdown component lets the user select which format (Assembly, Binary, Hexadecimal) they want to input. It uses @/components/ui/select for the UI.
 
-RISCVConvertButton.tsx:
-
+### RISCVConvertButton.tsx:
 This button triggers the conversion of the inputted instruction. Based on the selected format, it calls the appropriate function (inputtedAssembly, inputtedBinary, or inputtedHexadecimal) and updates the results.
 
-RISCVInput.tsx:
-
+### RISCVInput.tsx:
 This component provides the input field for users to type their instruction. It passes the input back to the parent component (RISCVInteractiveForm) for processing.
 
-RISCVResults.tsx:
-
+### RISCVResults.tsx:
 Displays the results of the conversion in all three formats (Assembly, Binary, Hexadecimal). Each result includes a copy button to quickly copy the value to the clipboard.
-Conversion Functions:
 
-inputtedAssembly:
+### Conversion Functions:
 
+#### inputtedAssembly:
 Converts a RISC-V assembly instruction to binary and hexadecimal. It parses the instruction, identifies its type (R, I, S, B, U, or J), and constructs the corresponding binary and hexadecimal outputs.
 
-inputtedBinary:
-
+#### inputtedBinary:
 Converts a binary instruction to assembly and hexadecimal. It parses the binary string into different fields like opcode, registers, and immediate values based on the instruction type, and returns the assembly equivalent.
 
-inputtedHexadecimal:
-
+#### inputtedHexadecimal:
 Converts a hexadecimal instruction to binary and assembly. It first converts the hex input to binary, then uses similar logic as inputtedBinary to extract and convert the instruction.
 
-JSON File:
-RISCVInstructions.json:
+### RISCVInstructions.json:
 This file contains the RISC-V instruction set details such as opcode, funct3, funct7, and the instruction format type (R, I, S, B, U, or J). The converter functions use this JSON file to map the input instructions to their binary/assembly equivalents.
