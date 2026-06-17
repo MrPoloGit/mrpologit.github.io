@@ -70,7 +70,7 @@ https://github.com/MrPoloGit/elsa.vim
 
 ---
 
-### SV support for llnn
+### llnn
 
 **Description** — A library for creating scalable LUT-Based Logic Neural Network Architecture for FPGAs.
 
@@ -144,7 +144,10 @@ https://github.com/MrPoloGit/elsa.vim
 
 ### Slugway Surfers
 
-**Description** — A simple falling block running game, made for CSE 100
+**Description** — A simple 3 track falling block dodging game, made for CSE 100
+
+- Synthesized and ran on Bayas3 FPGA board
+- Output to VGA
 
 - **Stack/Tools:** Vivado, Verilog
 
