@@ -24,5 +24,5 @@ Hi, I'm **Marco Frank**, currently an incoming **masters student** studying **Co
 - [GitHub](https://github.com/MrPoloGit)
 - [LinkedIn](https://linkedin.com/in/marco-a-frank)
 - [Youtube](When i get time)
-- [Twitter / X / Xitter (Pronounced Shitter)](https://twitter.com/your-handle)
-- [ORCID](https://orcid.org/0000-0000-0000-0000)
+- [Twitter / X / Xitter (Pronounced Shitter)](When i get time)
+- [ORCID](https://orcid.org/0009-0007-8338-807X)
