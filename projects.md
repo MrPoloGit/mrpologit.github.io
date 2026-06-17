@@ -76,7 +76,7 @@ https://github.com/MrPoloGit/elsa.vim
 
 - Added support for System Verilog
 
-- **Stack/Tools:** Python, System Verilog
+- **Stack/Tools:** Python, System Verilog, VHDL
 - **Links:** [GitHub](https://github.com/capo-urjc/llnn)
 
 ---

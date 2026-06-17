@@ -16,11 +16,11 @@ Example
 Brief description of your role and responsibilities. 
 -->
 
----
+<!-- ---
 
 ### Graduate Researcher — UCSC HSC
 
-*September 2026 – Present*
+*September 2026 – Present* -->
 
 ---
 
