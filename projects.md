@@ -150,12 +150,3 @@ https://github.com/MrPoloGit/elsa.vim
 - Output to VGA
 
 - **Stack/Tools:** Vivado, Verilog
-
----
-
-### Ultimate TTTMC
-
-**Description** — AI to play Ultimate Tic-Tac-Toe using Monte Carlo
-
-- **Stack/Tools:** Python
-- **Links:** [GitHub](https://github.com/MrPoloGit/UltimateTTTMC)
