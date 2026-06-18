@@ -129,7 +129,7 @@ https://github.com/MrPoloGit/elsa.vim
 - Need to update repo
 
 - **Stack/Tools:** Juypter notebook, Python
-- **Links:** [GitHub](https://github.com/MrPoloGit/phys152_2025/blob/main/Project/Project.ipynb)
+- **Links:** [GitHub](https://github.com/MrPoloGit/Anomaly-Detection-of-LHC-Collision-Data)
 
 ---
 
