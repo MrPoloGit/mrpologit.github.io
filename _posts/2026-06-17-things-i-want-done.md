@@ -13,4 +13,4 @@ description: Discussing a repository to track what I want done
 
 As I become more and more busy, I continue to get new ideas and do not have the time nor enough interest to get a lot of things I want done. It was bothering me, so I needed a place to just post it and hopefully someone either looking for a project or willing to get something done can do it. 
 
-Its on a new repository I created called [things-i-want-done](https://github.com/MrPoloGit/things-i-want-done)
+Its all on a new repository I created called [things-i-want-done](https://github.com/MrPoloGit/things-i-want-done)
