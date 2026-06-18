@@ -126,8 +126,6 @@ https://github.com/MrPoloGit/elsa.vim
 
 **Description** — Anomaly Detection of LHC Collision Data completed for PHYS 152
 
-- Need to update repo
-
 - **Stack/Tools:** Juypter notebook, Python
 - **Links:** [GitHub](https://github.com/MrPoloGit/Anomaly-Detection-of-LHC-Collision-Data)
 
