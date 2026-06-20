@@ -29,20 +29,6 @@ https://github.com/MrPoloGit/vscode-elsa-lang
 https://github.com/MrPoloGit/elsa.vim 
 -->
 
-
-### zed-elsa
-
-**Description** — An extention for zed to support Elsa
-
-- Had to create treesitter
-- Also created language server for autocomplete of `let` keyword
-- Added to zed extensions
-
-- **Stack:** Javascript, Rust
-- **Links:** [elsa-lang](https://github.com/MrPoloGit/elsa-lang) · [tree-sitter-elsa](https://github.com/MrPoloGit/tree-sitter-elsa) · [elsa-lsp](https://github.com/MrPoloGit/elsa-lsp)
-
----
-
 ### μTheia
 
 **Description** — Event-based, general-purpose machine vision ASIC 
@@ -67,6 +53,19 @@ https://github.com/MrPoloGit/elsa.vim
 
 - **Stack/Tools:** Vivado, Yosys, Verilator, System Verilog, Python
 - **Links:** [GitHub](https://github.com/sifferman/ternip/) · [Demo (Hopefully soon)](#)
+
+---
+
+### zed-elsa
+
+**Description** — An extention for zed to support Elsa
+
+- Had to create treesitter
+- Also created language server for autocomplete of `let` keyword
+- Added to zed extensions
+
+- **Stack:** Javascript, Rust
+- **Links:** [elsa-lang](https://github.com/MrPoloGit/elsa-lang) · [tree-sitter-elsa](https://github.com/MrPoloGit/tree-sitter-elsa) · [elsa-lsp](https://github.com/MrPoloGit/elsa-lsp)
 
 ---
 
