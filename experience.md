@@ -52,14 +52,13 @@ Brief description of your role and responsibilities.
 
 ### MS Computer Science and Engineering — UCSC
 
-*2026 – Present*
+*September 2026 – Present*
 
 - Focused on computer architecture and VLSI course work
-- Research in the [Hardware Systems Collective](https://hsc.ucsc.edu/)
 
 ### BS Computer Engineering, Concentration in Computer Systems — UCSC
 
-*2021 – 2026*
+*September 2021 – June 2026*
 
 - Focused on computer hardware course work
 - Research in the [Hardware Systems Collective](https://hsc.ucsc.edu/)
@@ -68,7 +67,7 @@ Brief description of your role and responsibilities.
 
 ### BS Applied Physics, Concentration in Computational Physics — UCSC
 
-*2021 – 2026*
+*September 2021 – June 2026*
 
 - Focused on computational physics
 - Research in the [Santa Cruz Institute for Particle Physics](https://scipp.ucsc.edu/)
