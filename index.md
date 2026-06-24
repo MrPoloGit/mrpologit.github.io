@@ -3,19 +3,21 @@ layout: default
 title: Home
 ---
 
-Hi, I'm **Marco Frank**, currently an incoming **masters student** studying **Computer Science and Engineering** at the **University of California, Santa Cruz**. I previously studied there as an undergraduate too. I am currently doing research using FPGAs in the **Hardware Systems Collective**. I have an interest in computer architecture, VLSI, accelerators, and just most low level stuff.
+Hi, I'm **Marco Frank**, currently an incoming **masters student** studying **Computer Science and Engineering** at the **University of California, Santa Cruz**. I previously studied there as an undergraduate too, recieveing a **BS in Computer Engineering (Computer Systems)** and **BS in Applied Physics (Computational Physics)**. I am currently doing research using FPGAs in the **Hardware Systems Collective**. I have an interest in computer architecture, VLSI, accelerators, and just most low level stuff.
 
 ---
 
 ## Pages
 
-**[Projects](projects)** — A collection of things I've built and worked on.
+**[Projects](projects)** — Things I've built.
 
-**[Experience](experience)** — My professional background and roles.
+**[Experience](experience)** — Professional roles and education.
 
-**[Publications](publications)** — Research papers and academic work.
+**[Skills](skills)** — What I can do and use.
 
-**[Posts](posts)** — Writing, notes, and blog entries.
+**[Publications](publications)** — Research and academic work.
+
+**[Posts](posts)** — Writing and notes.
 
 ---
 
@@ -23,6 +25,5 @@ Hi, I'm **Marco Frank**, currently an incoming **masters student** studying **Co
 
 - [GitHub](https://github.com/MrPoloGit)
 - [LinkedIn](https://linkedin.com/in/marco-a-frank)
-- [Youtube](https://www.youtube.com/@MrPolo-ch8iv)
-- [Twitter/X/Xitter (Pronounced Shitter)](When i get time)
+- [YouTube](https://www.youtube.com/@MrPolo-ch8iv)
 - [ORCID](https://orcid.org/0009-0007-8338-807X)

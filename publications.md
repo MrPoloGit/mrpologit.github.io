@@ -9,16 +9,6 @@ title: Publications
 
 ---
 
-Nothing yet!
+No publications yet — actively working toward submission from ongoing research in FPGA-based ML acceleration (ternip core).
 
-<!-- 
-Example layout
-
-### Paper Title
-
-*Authors* — **Venue/Journal**, Year
-
-Brief description or abstract excerpt.
-
-[Paper](#) · [Code](#) · [Slides](#) 
--->
+Research group: [UCSC Hardware Systems Collective](https://hsc.ucsc.edu/)
