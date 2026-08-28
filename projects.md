@@ -11,15 +11,14 @@ title: Projects
 
 ### μTheia
 
-**Tools:** SystemVerilog, cocotb, LibreLane/OpenROAD, Magic, KLayout, Netgen, Icarus Verilog, Python, SDC, TCL &nbsp;|&nbsp
-**Status:** Submission pending — WaferSpace MPW shuttle deadline July 14, 2026
+**Tools:** SystemVerilog, cocotb, LibreLane/OpenROAD, Magic, KLayout, Netgen, Icarus Verilog, Python, SDC, TCL | 
+**Status:** Submitted — WaferSpace MPW shuttle deadline July 14, 2026
 
 **Description** — Neuromorphic inference ASIC that decodes EVT2 event streams from a Prophesee event camera, compresses 320×320 spatial coordinates into a 16×16 grid with 16 temporal bins via voxel binning, and performs 8-bit integer MAC scoring across four programmable gesture classes. No CPU, no cache — all computation is streaming and in-order.
 
 - Authored SystemVerilog RTL modules and cocotb/Icarus Verilog testbenches; set up and managed the LibreLane/OpenROAD chip design flow end-to-end, including manual placement and DRC intervention
 - Achieved timing closure at 64 MHz on GlobalFoundries GF180MCU (0.18µm); full LVS and DRC sign-off via Magic and KLayout
 - Event throughput: 32 Mevent/s; MAC latency: ~64 µs for 16×16×16 feature set (4,098 cycles at 64 MHz)
-- Pending fabrication via WaferSpace MPW shuttle on GlobalFoundries GF180MCU
 
 **Links:** [GitHub](https://github.com/MrPoloGit/microTheia)
 
@@ -52,7 +51,7 @@ title: Projects
 - Ported the capo-urjc/llnn library from combinational VHDL to sequential SystemVerilog, enabling runtime weight updates
 - Implemented LiveLLNN on PYNQ-Z2, achieving ~4 ns inference latency
 
-**Links:** [GitHub](https://github.com/MrPoloGit/LiveLLNN)
+**Links:** [GitHub](https://github.com/MrPoloGit/LiveLLNN) · [Paper](/papers/LiveLLNN_ReconfigureableHeterogeneousLookupTableBasedLogicalNeuralNetworks.pdf)
 
 ---
 
@@ -62,7 +61,7 @@ title: Projects
 
 **Description** — Contributed SystemVerilog code generation support to [capo-urjc/llnn](https://github.com/capo-urjc/llnn), an open-source library for LUT-Based Logic Neural Network architectures targeting FPGAs. The library previously generated only combinational VHDL; this PR adds a sequential SystemVerilog output path. Accepted and merged upstream.
 
-**Links:** [Github](https://github.com/mrpologit/llnn)
+**Links:** [Github](https://github.com/mrpologit/llnn) · [Paper](/papers/LiveLLNN_ReconfigureableHeterogeneousLookupTableBasedLogicalNeuralNetworks.pdf)
 
 ---
 

@@ -15,7 +15,7 @@ Hi, I'm **Marco Frank**, currently an incoming **masters student** studying **Co
 
 **[Skills](skills)** — What I can do and use.
 
-**[Publications](publications)** — Research and academic work.
+**[Papers](papers)** — Research and academic work.
 
 **[Posts](posts)** — Writing and notes.
 

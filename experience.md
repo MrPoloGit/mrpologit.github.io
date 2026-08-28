@@ -17,7 +17,7 @@ title: Experience
 - Parameterized element-wise vectorized operations and RMSNorm reduction logic in ternip core, extending support from fixed dimensions (1024/2048/2560) to arbitrary vector lengths
 - Implemented ternary weight compression and decompression hardware in SystemVerilog, reducing memory bandwidth requirements for ternip core inference
 - SystemVerilog RTL development for ternip core, a hardware accelerator for MatmulFree LLM inference deployed on Xilinx UltraScale+ U250 (300 MHz, 110 tokens/sec)
-- Contributing to TSMC 6nm tapeout incorporating a SiFive RISC-V core for system orchestration
+- Working on TSMC 4nm tapeout incorporating a SiFive RISC-V core for system orchestration
 
 ---
 
@@ -56,7 +56,7 @@ title: Experience
 *September 2026 – Present*
 
 - Research: [Hardware Systems Collective](https://hsc.ucsc.edu/)
-- Focus: Computer Architecture, VLSI, FPGA
+- Focus: Computer Architecture, VLSI, FPGA, ASIC
 
 ---
 
