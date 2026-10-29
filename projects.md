@@ -14,7 +14,7 @@ title: Projects
 **Tools:** SystemVerilog, cocotb, LibreLane/OpenROAD, Magic, KLayout, Netgen, Icarus Verilog, Python, SDC, TCL | 
 **Status:** Submitted — WaferSpace MPW shuttle deadline July 14, 2026
 
-**Description** — Neuromorphic inference ASIC that decodes EVT2 event streams from a Prophesee event camera, compresses 320×320 spatial coordinates into a 16×16 grid with 16 temporal bins via voxel binning, and performs 8-bit integer MAC scoring across four programmable gesture classes. No CPU, no cache — all computation is streaming and in-order.
+**Description** — ASIC that decodes EVT2 event streams from a Prophesee event camera, compresses 320×320 spatial coordinates into a 16×16 grid with 16 temporal bins via voxel binning, and performs 8-bit integer MAC scoring across four programmable gesture classes. No CPU, no cache — all computation is streaming and in-order.
 
 - Authored SystemVerilog RTL modules and cocotb/Icarus Verilog testbenches; set up and managed the LibreLane/OpenROAD chip design flow end-to-end, including manual placement and DRC intervention
 - Achieved timing closure at 64 MHz on GlobalFoundries GF180MCU (0.18µm); full LVS and DRC sign-off via Magic and KLayout
