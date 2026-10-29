@@ -57,6 +57,7 @@ title: Experience
 
 - Research: [Hardware Systems Collective](https://hsc.ucsc.edu/)
 - Focus: Computer Architecture, VLSI, FPGA, ASIC
+- Relevant coursework: Machine Learning (CSE 242)
 
 ---
 
@@ -65,4 +66,4 @@ title: Experience
 *September 2021 – June 2026*
 
 - Research: [Hardware Systems Collective](https://hsc.ucsc.edu/) · [Santa Cruz Institute for Particle Physics](https://scipp.ucsc.edu/)
-- Relevant coursework: Logic Design (CSE 100), VLSI Design (CSE 122), Chip Design (CSE 127A/B), Computer Architecture (CSE 220), ASIC Design (CSE 225), Brain Inspired Machine Learning (ECE 110), Quantum Computing (PHYS 150), Physics and Machine Learning (PHYS 152)
+- Relevant coursework: Chip Design Capstone(CSE 127A/B), Computer Architecture (CSE 220), ASIC Design (CSE 225), Brain Inspired Machine Learning (ECE 110), Quantum Computing (PHYS 150), Physics and Machine Learning (PHYS 152), GPU Programming (AM 148)
