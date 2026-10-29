@@ -66,4 +66,4 @@ title: Experience
 *September 2021 – June 2026*
 
 - Research: [Hardware Systems Collective](https://hsc.ucsc.edu/) · [Santa Cruz Institute for Particle Physics](https://scipp.ucsc.edu/)
-- Relevant coursework: Chip Design Capstone(CSE 127A/B), Computer Architecture (CSE 220), ASIC Design (CSE 225), Brain Inspired Machine Learning (ECE 110), Quantum Computing (PHYS 150), Physics and Machine Learning (PHYS 152), GPU Programming (AM 148)
+- Relevant coursework: Chip Design Capstone(CSE 127A/B), Computer Architecture (CSE 220), ASIC Design (CSE 225), Brain Inspired Machine Learning (ECE 110), Computational Physics (PHYS 115), Quantum Computing (PHYS 150), Physics and Machine Learning (PHYS 152), GPU Programming (AM 148)
