@@ -4,7 +4,7 @@ This is my personal website hosted using github pages.
 
 ## Running locally
 
-This site is built with [Jekyll](https://jekyllrb.com/) and requires Ruby (see `.ruby-version` for the expected version).
+This site is built with [Jekyll](https://jekyllrb.com/), requires Ruby (see `.ruby-version` for the expected version), and uses a fork of minimal template.
 
 1. Install dependencies:
    ```
