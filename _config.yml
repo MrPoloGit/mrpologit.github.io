@@ -1,4 +1,7 @@
-theme: jekyll-theme-minimal
+remote_theme: MrPoloGit/minimal
+plugins:
+  - jekyll-remote-theme
+
 title: Marco Frank
 description: GDS from μTheia project
 
