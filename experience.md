@@ -9,7 +9,7 @@ title: Experience
 
 ---
 
-### Undergraduate Researcher — UCSC Hardware Systems Collective
+### Researcher — UCSC Hardware Systems Collective
 
 *April 2025 – Present*
 
