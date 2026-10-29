@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-Hi, I'm **Marco Frank**, currently an incoming **masters student** studying **Computer Science and Engineering** at the **University of California, Santa Cruz**. I previously studied there as an undergraduate too, recieveing a **BS in Computer Engineering (Computer Systems)** and **BS in Applied Physics (Computational Physics)**. I am currently doing research using FPGAs in the **Hardware Systems Collective**. I have an interest in computer architecture, VLSI, accelerators, and just most low level stuff.
+Hi, I'm **Marco Frank**, a **masters student** studying **Computer Science and Engineering** at the **University of California, Santa Cruz**. I previously studied there as an undergraduate too, recieveing a **BS in Computer Engineering (Computer Systems)** and **BS in Applied Physics (Computational Physics)**. I am currently doing research using FPGAs in the **Hardware Systems Collective**. I have an interest in computer architecture, VLSI, accelerators, and just most low level stuff.
 
 ---
 
